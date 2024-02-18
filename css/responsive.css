@@ -79,11 +79,11 @@
         padding: 0 20px;
     }
 
-    .header {
+    /* .header {
         height: auto;
         flex-direction: row !important;
         align-items: center;
-    }
+    } */
 
 
     .logo img {
@@ -92,8 +92,9 @@
     }
 
     .header {
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
+        height: auto;
     }
 
     .menu {
