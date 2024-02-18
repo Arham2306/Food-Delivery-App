@@ -61,6 +61,10 @@ html {
     color: #FA4A0C;
 }
 
+.mobile-menu {
+    display: none;
+}
+
 /* HEADER */
 
 /* HERO */

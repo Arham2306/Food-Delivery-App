@@ -25,6 +25,9 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
+            <div class="mobile-menu" onclick="toggleMobileMenu()">
+                <i class='bx bx-menu'></i>
+            </div>
         </div>
     </nav>
     <!-- HEADER -->
@@ -106,7 +109,12 @@
         </div>
     </footer>
 
-
+    <script>
+        function toggleMobileMenu() {
+            var mobileLinks = document.querySelector('.mobile-links');
+            mobileLinks.style.display = (mobileLinks.style.display === 'flex') ? 'none' : 'flex';
+        }
+    </script>
 </body>
 
 </html>
